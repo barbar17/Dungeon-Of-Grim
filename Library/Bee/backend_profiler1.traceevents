@@ -1,0 +1,604 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1721542906114347, "dur":1053, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906115409, "dur":221, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1721542906115685, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1721542906115726, "dur":337, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1721542906116097, "dur":621, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906116718, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354131, "dur":451, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354582, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354611, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354618, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354632, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354638, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354655, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354661, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354676, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354681, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354695, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354700, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354714, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354720, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354734, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354837, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906354859, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906355135, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906355209, "dur":9232, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1721542906116415, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906116765, "dur":6409, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906123190, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1721542906123195, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906123257, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1721542906123267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906124010, "dur":4170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1721542906128186, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1721542906128313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906128847, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1721542906131469, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1721542906131545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906131553, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1721542906133327, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906133400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906133661, "dur":35636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906169390, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906169421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906169429, "dur":5577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906175040, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906175492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906175501, "dur":5997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906181538, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906181710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906181723, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906186059, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906186091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906186100, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906189969, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906190000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906190010, "dur":8386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906198434, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906198477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906198490, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906202095, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906202130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906202140, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906204094, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906204124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906204131, "dur":7192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906211350, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906211379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906211387, "dur":9663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906221080, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906221353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906221367, "dur":4243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906225639, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906225831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906225855, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906227961, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906228174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906228183, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906233247, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906233500, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906233525, "dur":15366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906248916, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906248942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906248967, "dur":15026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906264019, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906264047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906264054, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906269515, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906270075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906270381, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906276366, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906276391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906276400, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906278829, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906278859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906278868, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906282673, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906282700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906282707, "dur":9974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721542906292703, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1721542906292728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906292736, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1721542906294501, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1721542906294635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906294642, "dur":7056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1721542906301724, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1721542906301750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906301756, "dur":24270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1721542906326059, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1721542906326088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721542906326098, "dur":4364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1721542906330484, "dur":23626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906116673, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906116787, "dur":6435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906123222, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1721542906123463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906141178, "dur":11971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1721542906153305, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906153366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906153382, "dur":9498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906162907, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906162940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906162947, "dur":7082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906170064, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906170092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906170100, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906172106, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906172676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906172684, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906175351, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906175389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906175399, "dur":9890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906185329, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906185370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906185417, "dur":8480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906193926, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906193956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906194006, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906199789, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906199821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906199829, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906203970, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906203997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906204007, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906206784, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906206813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906206825, "dur":6381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906213232, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906213448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906213486, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906215751, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906215778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906215787, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906219228, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906219432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906219440, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906223515, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906223723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906223733, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906227664, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906229421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906229435, "dur":6466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906235929, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906236180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906236191, "dur":19074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906255296, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906255327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906255338, "dur":11028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906266393, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906266420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721542906266430, "dur":64094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721542906330553, "dur":23675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906116542, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906116775, "dur":6429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906123205, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1721542906123315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906125189, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1721542906128465, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1721542906128555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906128874, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1721542906132607, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1721542906132704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906132713, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1721542906135227, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1721542906135329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906135337, "dur":14551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1721542906150038, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906150087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906150095, "dur":7440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906157578, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906157635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906157648, "dur":6064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906163772, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906163810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906163824, "dur":6252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906170100, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906170129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906170139, "dur":4993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906175152, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906175178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906175184, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906177810, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906177838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906177847, "dur":10500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906188373, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906188419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906188431, "dur":10344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906198806, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906198933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906198959, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906202717, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906202754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906202763, "dur":9472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906212296, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906212567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906212575, "dur":5782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906218389, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906218613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906218626, "dur":4585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906223231, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906223555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906223564, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906227649, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906228412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906228421, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906233293, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906233621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906233629, "dur":15601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906249253, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906249278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906249286, "dur":14722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906264034, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906264060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906264068, "dur":22641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906286735, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906287026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906287036, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721542906291283, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1721542906291641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906292155, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1721542906294061, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1721542906294092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906294100, "dur":4412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1721542906298548, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1721542906298575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906298585, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1721542906301120, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1721542906301232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906301241, "dur":5850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1721542906307117, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1721542906307531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906307540, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1721542906310061, "dur":41781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1721542906351850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721542906351864, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1721542906354048, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1721542906354051, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906116825, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906116827, "dur":6352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906123190, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1721542906123299, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906125192, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1721542906128777, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1721542906128842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906129316, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1721542906130972, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1721542906131094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906131133, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1721542906133107, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1721542906133175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906133182, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1721542906136112, "dur":1211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim.exe" }}
+,{ "pid":12345, "tid":4, "ts":1721542906137336, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906137350, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim.exe" }}
+,{ "pid":12345, "tid":4, "ts":1721542906140698, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906140744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906141027, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906147688, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906147727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906147763, "dur":8137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906155927, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906155963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906155970, "dur":6968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906162963, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906162989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906163000, "dur":7002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906170031, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906170062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906170071, "dur":6178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906176277, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906176305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906176313, "dur":7430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906183776, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906183815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906183824, "dur":11096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906194950, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906194977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906194985, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906200818, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906200851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906200862, "dur":10451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906211348, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906211387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906211399, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906214284, "dur":1121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906215411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906215420, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906219179, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906219393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906219402, "dur":6795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906226363, "dur":1298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906227666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906227676, "dur":20712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906248425, "dur":957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906249386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906249396, "dur":8316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906257759, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906257794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906257821, "dur":15013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906272861, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906272888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906272898, "dur":23366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1721542906296291, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1721542906296318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906296327, "dur":29717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1721542906326072, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1721542906326097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721542906326104, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1721542906330409, "dur":23711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906116773, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906116773, "dur":6448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906123221, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1721542906123406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906139741, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1721542906155740, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906155796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906155808, "dur":7224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906163057, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906163086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906163092, "dur":6973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906170094, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906170129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906170135, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906172284, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906172321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906172331, "dur":4477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906176832, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906176860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906176867, "dur":6306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906183208, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906183248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906183263, "dur":4600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906187907, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906187945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906187959, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906190384, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906190425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906190433, "dur":8981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906199460, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906199489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906199540, "dur":12231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906211801, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906211831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906211838, "dur":6142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906218006, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906218827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906218834, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906223701, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906223878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906223886, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906227656, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906227831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906227844, "dur":5224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906233095, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906233752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906233759, "dur":17932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906251717, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906251747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906251757, "dur":12176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906263964, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906263993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906264003, "dur":4570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906268598, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906268626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906268670, "dur":6562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906275261, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906275293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906275304, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906277744, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906277792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906277808, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906280089, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906280117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906280128, "dur":10224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906290391, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906290469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906292189, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721542906294793, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1721542906294817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906294824, "dur":8117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1721542906302974, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1721542906303000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906303010, "dur":8939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1721542906311988, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1721542906312024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906312039, "dur":15003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1721542906327078, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1721542906327148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721542906327191, "dur":8205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1721542906335423, "dur":18712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906116919, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906116920, "dur":6300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906123221, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1721542906123332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906125172, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1721542906128366, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1721542906128437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906128858, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1721542906131003, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1721542906131109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906131146, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1721542906133138, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906133220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906133665, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906138988, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1721542906139082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906139392, "dur":29602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1721542906169092, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906169124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906169133, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906175053, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906175118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906175132, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906177263, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906177290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906177298, "dur":10537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906188542, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906188685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906188694, "dur":7215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906195939, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906195965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906195974, "dur":15272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906211274, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906211306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906211316, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906218067, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906218254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906218264, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906223205, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906223538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906223550, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906226527, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906226774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906226783, "dur":10333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906237151, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906237637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906237670, "dur":27246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906264944, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906264975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906265011, "dur":20168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906285214, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906285246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906285258, "dur":28694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721542906313999, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1721542906314045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906314058, "dur":12165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1721542906326246, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1721542906326269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906326276, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1721542906328814, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1721542906328973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721542906328980, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1721542906331539, "dur":22681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906117099, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906117099, "dur":6104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906123204, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1721542906123330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906125391, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1721542906128641, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1721542906128706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906128865, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1721542906131858, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1721542906131929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906131951, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1721542906134091, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906134206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906134213, "dur":66083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906200409, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906200443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906200452, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906204023, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906204061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906204070, "dur":9503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906213673, "dur":1233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906214913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906214931, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906218890, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906219084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906219097, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906224352, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906224536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906224545, "dur":5930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906230514, "dur":1827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906232349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906232364, "dur":52447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906286032, "dur":2959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906289003, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906289018, "dur":39512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721542906328556, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1721542906328743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721542906328751, "dur":3596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1721542906332374, "dur":21745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906116963, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906116964, "dur":6255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906123219, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1721542906123339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906138722, "dur":9064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1721542906147942, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906147980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906147989, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906149657, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906149710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906149721, "dur":6200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906155948, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906155981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906155987, "dur":6874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906162890, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906162934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906162942, "dur":6776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906169748, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906169776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906169786, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906175141, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906175166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906175175, "dur":5615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906180826, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906180855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906180867, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906183461, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906183494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906183504, "dur":11559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906195088, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906195268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906195276, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906198897, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906198931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906198942, "dur":5907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906204875, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906204936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906204946, "dur":5600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906210584, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906210630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906210640, "dur":6813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906217486, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906218023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906218037, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906221512, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906221687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906221695, "dur":4675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906226450, "dur":1571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906228028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906228038, "dur":4362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906232432, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906232515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906232532, "dur":7191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906239763, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906240119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906240130, "dur":15735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906255892, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906255919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906255928, "dur":10411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906266365, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906266646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906266655, "dur":15436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906282147, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906282365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906282376, "dur":9448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721542906291849, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1721542906291875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906291938, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1721542906294271, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1721542906294295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906294302, "dur":7148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1721542906301476, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1721542906301562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906301572, "dur":5412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1721542906307019, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1721542906307052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906307068, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1721542906310868, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1721542906310908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906310921, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1721542906314525, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1721542906314565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906314574, "dur":11028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1721542906325634, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1721542906325663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906325671, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1721542906328391, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOG Build/test/Dungeon Of Grim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1721542906328417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721542906328425, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOG Build/test/Dungeon Of Grim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1721542906331135, "dur":22948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721542906367349, "dur":4948, "ph":"X", "name": "ProfilerWriteOutput" }
+,

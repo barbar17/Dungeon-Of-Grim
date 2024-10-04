@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6564ff7a3e2bed944a2cd0012fcd8a3b, type: 3}
+  m_Name: Intro_1
+  m_EditorClassIdentifier: 
+  lines:
+  - '"Pleasure meeting you, noble knight! My name is Grim. Your presence here now
+    implies your demise! Hahaha!"'
+  - '"You will be trapped with me in this dungeon for eternity! Hahaha!"'
+  - '"Unless you can defeat me!, then perhaps I shall grant you freedom from this
+    dungeon" '
+  - '"and release you from this torment."'
+  - '"Remember!, if you can defeat me. Hahaha!"'

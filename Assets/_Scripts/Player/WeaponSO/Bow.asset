@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d57c9836d7580459e81b583bb6ff94, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  weaponName: Bow
+  isWeaponMelee: 0
+  weaponDamage: 10
+  attackRadius: 0.7
+  attackDelay: 0.8
+  powerAttackDelay: 1.3
+  weaponPrefab: {fileID: 8990248729234389711, guid: 45ac09d98470c1946a867de577c9b28f, type: 3}
+  attackSFX:
+  - {fileID: 8300000, guid: b8fedd31b8d0d074e9bdc5276c097942, type: 3}
+  - {fileID: 8300000, guid: aad6847ef602e734bb5143998718aa5d, type: 3}
+  PowerAttackSFX:
+  - {fileID: 8300000, guid: b38a6c29123871d47a3a687a95c0920c, type: 3}

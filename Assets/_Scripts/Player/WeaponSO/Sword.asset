@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d57c9836d7580459e81b583bb6ff94, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  weaponName: Sword
+  isWeaponMelee: 1
+  weaponDamage: 10
+  attackRadius: 0.7
+  attackDelay: 0.5
+  powerAttackDelay: 1
+  weaponPrefab: {fileID: 8990248729234389711, guid: eacb588b80e802844870ba6212f69dca, type: 3}
+  attackSFX:
+  - {fileID: 8300000, guid: 8d4802acc73275043a1184cd7deccee5, type: 3}
+  - {fileID: 8300000, guid: 5996f16115aaee141abd819dc79c9039, type: 3}
+  - {fileID: 8300000, guid: cfc75e8deff34c24184197076f39cc23, type: 3}
+  PowerAttackSFX:
+  - {fileID: 8300000, guid: a3b6eae5d80792441ada3304154a13ac, type: 3}
+  - {fileID: 8300000, guid: fadf5fce75b80fd4e814e2fa30776a4b, type: 3}
